@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektryka do Aut Zabytkowych</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="header-title">Elektryka do Aut Zabytkowych</h1>
+        <button id="lang-toggle">English</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#/" id="nav-home">Strona główna</a></li>
+            <li><a href="#/galeria" id="nav-gallery">Galeria</a></li>
+            <li><a href="#/kontakt" id="nav-contact">Kontakt</a></li>
+            <li><a href="#/polityka-prywatnosci" id="nav-privacy">Polityka prywatności</a></li>
+        </ul>
+    </nav>
+
+    <div id="app"></div>
+
+    <div id="myModal" class="image-modal">
+        <span class="close">&times;</span>
+        <img class="image-modal-content" id="img01" src="#" alt="#">
+    </div>
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p id="cookie-message">Ta strona używa plików cookies, aby zapewnić najlepszą jakość korzystania z naszej strony. Kontynuując przeglądanie tej witryny, zgadzasz się na użycie plików cookies. </p>
+        <button id="accept-cookies">Akceptuję</button>
+    </div>    
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="model.js" type="text/babel"></script>
+    <script src="controller.js" type="text/babel"></script>
+</body>
+
+</html>
